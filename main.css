@@ -1,7 +1,145 @@
-h1 {
-    font-size: 3rem;
-    color: darkorchid;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+    border:3px solid red;
+    border-radius: 50px;
+    background-color:palegreen;
+    padding: 1rem 0;
+}
+
+header .row,
+footer .row {
+  align-items: center;
+   
+}
+
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav p {
+  display: inline;
+  float: right;
+  align-items: center;
+    line-height: 4rem;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  background-image: url('images/jumbotron.jpg');
+  background-size: cover;
+  color: black;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: auto;
+  color: #fff;
     text-align: center;
+}
+
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 1rem;
+ 
+
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: inline-flex;
+  justify-content:flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+#anniu {
+    padding: 20px 50px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
     position: relative;
-    top: 200px;
+    top: 50px;
+    left:400px;
+    border-radius: 30px;
+}
+#anniu:hover{
+    background-color: chartreuse;
+    color: wheat;
+}
+#anniu:activ{
+    background-color: crimson;
+}
+figure p{
+    text-align: center;
+    border:1px solid black;
+    border-radius: 10px;
+    background-color:palegreen;
+    padding: 1rem 0;
+}
+
+figure p:hover{
+    background-color: white;
+    font-size: 3rem;
+    font-family: '楷体';
+    color: red;
+}
+
+
+
+
+#btnframe {
+    
+    width: 100%;
+    margin: auto;
 }
